@@ -2,10 +2,9 @@ object one24 {
   def Function(n: Int): Unit = {
     var i: Int = 0;
     var count: Int = 0;
-    while (i < n) {
+    while (i * i < n) {
       i = i + 1;
       count = count + 1;
-      i = i * i;
     }
   }
 
