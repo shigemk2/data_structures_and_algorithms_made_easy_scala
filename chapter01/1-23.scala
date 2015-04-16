@@ -5,10 +5,11 @@ object one23 {
     while(s <= n) {
       i = i + 1
       s = s + i
-      printf("*")
+      printf("i: %d s: %d\n", i, s)
+      printf("*\n")
     }
   }
   def main(args: Array[String]) {
-    Function(5)
+    Function(30)
   }
 }
