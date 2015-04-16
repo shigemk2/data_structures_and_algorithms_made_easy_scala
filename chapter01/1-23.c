@@ -3,10 +3,11 @@ void Function(int n) {
     while(s <= n) {
         i++;
         s = s+i;
-        printf("*");
+        printf("i: %d, s: %d\n", i, s);
+        printf("*\n");
     }
 }
 
 main() {
-    Function(6);
+    Function(30);
 }
